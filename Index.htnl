@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+ <html lang="pt-BR"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>pofab coviesi cunmigio</title> 
+     <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+    <div class="container"> 
+         <div class="envelope-wrapper"> 
+             <div class="envelope"> 
+                 <div class="letter"> 
+                     <div class="text"> 
+                         <strong>lala</strong> 
+                         <p> 
+                             min dibroqueia pofabo eo nun tour takanio eo prisissi muiti di oc iocnsabi dis nu fas sitidio acabia asin nu prisisi voutia agoria mai eo sor muiti dipidiente min vidia giria itionio dioc eo tiam muiti nu fas sitidio temniniaasin si oc mi amia eo tin cetisa namorao eo so quiri sab sioc ivoutia namorau tour iscrevenio is cunmadio nu corasao tar doeno tantio eo tiamio muiti oc pometio pamin eo nuncia siti augo asi nu kerio sie mai oma pesoa qui oc so relasionio eo quero muiti ficia cuoc ficio imaginio agenti nu futurio paroc foi a milio coisia:((
+  
+                         </p> 
+                     </div> 
+                 </div> 
+             </div> 
+             <div class="heart"></div> 
+         </div> 
+    </div>  
+    <script> 
+     const envelope = document.querySelector('.envelope-wrapper'); 
+     envelope.addEventListener('click', () => { 
+         envelope.classList.toggle('flap'); 
+     }) 
+  
+     document.addEventListener('click', function() { 
+             var container = document.querySelector('.container'); 
+             container.style.animation = 'none'; 
+         }); 
+  
+         window.onload = function() { 
+             var audio = new Audio('música/lala.mp3'); 
+             audio.play(); 
+         } 
+    </script> 
+ </body> 
+ </html>
